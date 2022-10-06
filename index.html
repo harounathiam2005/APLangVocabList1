@@ -5,6 +5,82 @@
   <meta charset="utf-8">
   <title>Thiam's Vocab List</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      background-color: #212121;
+    }
+
+    .entry-box {
+      background-color: black;
+      height: 750px;
+      margin: auto;
+      margin-top: 75px;
+      margin-bottom: auto;
+      border-radius: 50px;
+      animation: fadeInAnimation ease 5s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      z-index: -1;
+      /* box-shadow: 0 0 15px 30px gray; */
+      color: white;
+    }
+    @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+          width: 100%;
+      }
+      100% {
+          opacity: 1;
+          width: 45%
+      }
+    }
+    /* Add wrap to text (x)*/
+    .text-box {
+      height: 93%;
+      width: 90%;
+      margin: auto auto;
+      padding-top: 50px;
+      overflow-y: scroll;
+      text-align: left;
+    }
+
+    h5 {
+      color: white;
+      font-weight: 100;
+      top: 30px;
+      animation: fadeInAnimation ease 1s;
+    }
+    @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+          width: 100%;
+      }
+      100% {
+          opacity: 1;
+          width: 60%
+      }
+    }
+
+    h1 {
+      font-weight: lighter;
+      text-align: center;
+      color: white;
+    }
+
+    .meaning {
+      font-size: 20px;
+    }
+
+    img {
+      border: 150px;
+    }
+
+    h2 {
+      font-size: 30px;
+      background-color: gray;
+      color: black;
+    }
+  </style>
 </head>
 
 <body>
